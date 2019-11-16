@@ -44,13 +44,31 @@ function sendTelegramMessage(chat) {
     .catch(console.log);
 }
 
-app.post('/', ({body: {message: {chat: {"id": chatId}, text}, message}}, res) => {
+app.post('/', async ({body: {message: {chat: {"id": chatId}, text}, message}}, res) => {
 // app.post('/', (req, res) => {
     if (message) {
-        res.send("OK");
+        const ref = (p) => admin.database().ref('/gameState' + p);
+
+        const currentRef = ref("");
+        const receivedNumber = Number(text);
+        const payload = {number: receivedNumber};
+
+        res.send("OK"); // todo do better
+
+        // try to update
+        currentRef.once('value')
+        .then(snapshot => {
+            if (snapshot.exists()) {
+                return currentRef.update(payload)
+            } else {
+                return currentRef.set(payload);
+            }
+        })
+        .catch(console.log)
+
         sendTelegramMessage({
             "chat_id": chatId,
-            "text": "¡Ay " + text
+            "text": "Wrote " + text
         });
     }
     });
