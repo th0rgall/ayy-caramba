@@ -1,0 +1,74 @@
+[debug] [2019-11-16T16:19:43.636Z] ----------------------------------------------------------------------
+[debug] [2019-11-16T16:19:43.637Z] Command:       /Users/thor/.nvm/versions/node/v8.16.2/bin/node /Users/thor/.nvm/versions/node/v8.16.2/bin/firebase emulators:start --only functions
+[debug] [2019-11-16T16:19:43.637Z] CLI Version:   7.7.0
+[debug] [2019-11-16T16:19:43.638Z] Platform:      darwin
+[debug] [2019-11-16T16:19:43.638Z] Node Version:  v8.16.2
+[debug] [2019-11-16T16:19:43.638Z] Time:          Sat Nov 16 2019 18:19:43 GMT+0200 (EET)
+[debug] [2019-11-16T16:19:43.638Z] ----------------------------------------------------------------------
+[debug] [2019-11-16T16:19:43.638Z] 
+[info] i  Starting emulators: ["functions"]
+[info] ✔  functions: Using node@8 from host.
+[info] ✔  functions: Emulator started at http://localhost:5001
+[info] i  functions: Watching "/Users/thor/Projects/functions" for Cloud Functions...
+[debug] [2019-11-16T16:19:43.933Z] [worker-~diagnostic~-06285a71-25bc-4264-ad90-cd3e6a1b9c5c]: BUSY
+[debug] [2019-11-16T16:19:44.178Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/thor/Projects/functions","node_version":"8.16.2"}
+[debug] [2019-11-16T16:19:44.179Z] [runtime-status] Disabled runtime features: undefined {}
+[debug] [2019-11-16T16:19:44.181Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.7.0","resolution":"/Users/thor/Projects/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-11-16T16:19:44.181Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/thor/Projects/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-16T16:19:44.340Z] [runtime-status] Found google-gax at /Users/thor/Projects/functions/node_modules/google-gax/build/src/index.js {}
+[debug] [2019-11-16T16:19:44.340Z] [runtime-status] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"},{"name":"google-gax","status":"mocked"}]
+[debug] [2019-11-16T16:19:44.387Z] [runtime-status] Checked functions.config() {"config":{}}
+[debug] [2019-11-16T16:19:44.388Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/thor/Projects/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-16T16:19:44.388Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.7.0","resolution":"/Users/thor/Projects/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-11-16T16:19:44.389Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/thor/Projects/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-16T16:19:44.419Z] [runtime-status] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.7.0","resolution":"/Users/thor/Projects/functions/node_modules/firebase-admin/lib/index.js"}}
+[debug] [2019-11-16T16:19:44.422Z] [runtime-status] initializeApp(DEFAULT) {"databaseURL":"https://junction-19-ayy.firebaseio.com","storageBucket":"junction-19-ayy.appspot.com","projectId":"junction-19-ayy"}
+[info] ✔  functions[addMessage]: http function initialized (http://localhost:5001/junction-19-ayy/us-central1/addMessage).
+[info] ✔  functions[newMessage]: http function initialized (http://localhost:5001/junction-19-ayy/us-central1/newMessage).
+[info] ✔  All emulators started, it is now safe to connect.
+[debug] [2019-11-16T16:19:44.571Z] [worker-~diagnostic~-06285a71-25bc-4264-ad90-cd3e6a1b9c5c]: exited
+[debug] [2019-11-16T16:19:44.572Z] [worker-~diagnostic~-06285a71-25bc-4264-ad90-cd3e6a1b9c5c]: FINISHED
+[debug] [2019-11-16T16:19:51.572Z] Accepted request POST /junction-19-ayy/us-central1/newMessage --> newMessage
+[debug] [2019-11-16T16:19:51.578Z] [worker-newMessage-445bc69e-51a8-48c6-b116-484e3cd90b4b]: BUSY
+[debug] [2019-11-16T16:19:51.823Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/thor/Projects/functions","node_version":"8.16.2"}
+[debug] [2019-11-16T16:19:51.825Z] [runtime-status] Disabled runtime features: undefined {}
+[debug] [2019-11-16T16:19:51.827Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.7.0","resolution":"/Users/thor/Projects/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-11-16T16:19:51.827Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/thor/Projects/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-16T16:19:51.968Z] [runtime-status] Found google-gax at /Users/thor/Projects/functions/node_modules/google-gax/build/src/index.js {}
+[debug] [2019-11-16T16:19:51.968Z] [runtime-status] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"},{"name":"google-gax","status":"mocked"}]
+[debug] [2019-11-16T16:19:52.005Z] [runtime-status] Checked functions.config() {"config":{}}
+[debug] [2019-11-16T16:19:52.007Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/thor/Projects/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-16T16:19:52.007Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.7.0","resolution":"/Users/thor/Projects/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-11-16T16:19:52.008Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/thor/Projects/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-16T16:19:52.032Z] [runtime-status] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.7.0","resolution":"/Users/thor/Projects/functions/node_modules/firebase-admin/lib/index.js"}}
+[debug] [2019-11-16T16:19:52.034Z] [runtime-status] initializeApp(DEFAULT) {"databaseURL":"https://junction-19-ayy.firebaseio.com","storageBucket":"junction-19-ayy.appspot.com","projectId":"junction-19-ayy"}
+[debug] [2019-11-16T16:19:52.144Z] [runtime-status] Trigger "newMessage" has been found, beginning invocation! {}
+[info] i  functions: Beginning execution of "newMessage"
+[debug] [2019-11-16T16:19:52.145Z] [runtime-status]  {"httpsTrigger":{},"name":"newMessage","entryPoint":"newMessage"}
+[debug] [2019-11-16T16:19:52.145Z] [runtime-status] Running newMessage in mode HTTPS {}
+[debug] [2019-11-16T16:19:52.150Z] {"socketPath":"/var/folders/7m/7tyfzl_97vbfz_nplqd87nzh0000gn/T/firebase_emulator_invocation_1360.sock"}
+[debug] [2019-11-16T16:19:52.151Z] [functions] Runtime ready! Sending request! {"socketPath":"/var/folders/7m/7tyfzl_97vbfz_nplqd87nzh0000gn/T/firebase_emulator_invocation_1360.sock"}
+[debug] [2019-11-16T16:19:52.165Z] [runtime-status] Ephemeral server used! {}
+[info] >  https://api.telegram.org/bot930773720:AAGsVSZ0N1MofMyYrHsY1ye6wEN6UZ3tUqU
+[debug] [2019-11-16T16:19:52.174Z] [runtime-status] Ephemeral server survived. {}
+[info] i  functions: Finished "newMessage" in ~1s
+[debug] [2019-11-16T16:19:52.177Z] [worker-newMessage-445bc69e-51a8-48c6-b116-484e3cd90b4b]: IDLE
+[debug] [2019-11-16T16:20:09.629Z] File /Users/thor/Projects/functions/index.js changed, reloading triggers
+[debug] [2019-11-16T16:20:10.633Z] [worker-pool]: Shutting down IDLE worker (newMessage)
+[debug] [2019-11-16T16:20:10.640Z] [worker-~diagnostic~-f0ca1dc8-37de-41c9-9f87-f3e63fdd9857]: BUSY
+[debug] [2019-11-16T16:20:10.642Z] [worker-newMessage-445bc69e-51a8-48c6-b116-484e3cd90b4b]: exited
+[debug] [2019-11-16T16:20:10.642Z] [worker-newMessage-445bc69e-51a8-48c6-b116-484e3cd90b4b]: FINISHED
+[debug] [2019-11-16T16:20:10.907Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/thor/Projects/functions","node_version":"8.16.2"}
+[debug] [2019-11-16T16:20:10.909Z] [runtime-status] Disabled runtime features: undefined {}
+[debug] [2019-11-16T16:20:10.910Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.7.0","resolution":"/Users/thor/Projects/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-11-16T16:20:10.911Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/thor/Projects/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-16T16:20:11.076Z] [runtime-status] Found google-gax at /Users/thor/Projects/functions/node_modules/google-gax/build/src/index.js {}
+[debug] [2019-11-16T16:20:11.076Z] [runtime-status] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"},{"name":"google-gax","status":"mocked"}]
+[debug] [2019-11-16T16:20:11.117Z] [runtime-status] Checked functions.config() {"config":{}}
+[debug] [2019-11-16T16:20:11.117Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/thor/Projects/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-16T16:20:11.121Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.7.0","resolution":"/Users/thor/Projects/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-11-16T16:20:11.122Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/thor/Projects/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-16T16:20:11.150Z] [runtime-status] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.7.0","resolution":"/Users/thor/Projects/functions/node_modules/firebase-admin/lib/index.js"}}
+[debug] [2019-11-16T16:20:11.153Z] [runtime-status] initializeApp(DEFAULT) {"databaseURL":"https://junction-19-ayy.firebaseio.com","storageBucket":"junction-19-ayy.appspot.com","projectId":"junction-19-ayy"}
+[debug] [2019-11-16T16:20:11.298Z] [worker-~diagnostic~-f0ca1dc8-37de-41c9-9f87-f3e63fdd9857]: exited
+[debug] [2019-11-16T16:20:11.298Z] [worker-~diagnostic~-f0ca1dc8-37de-41c9-9f87-f3e63fdd9857]: FINISHED
