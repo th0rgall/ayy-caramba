@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Proto Inject",
+    "author": "Thor Galle",
+    "version": "0.0.2",
+    "description": "Inject HTML into your Figma/Zeplin/XD shared prototypes",
+    "permissions": [
+        "https://www.figma.com/proto/*"
+    ],
+    "content_scripts": [
+        {
+          "matches": ["https://www.figma.com/proto/*"],
+          "js": ["content.js"]
+        },
+        {
+          "matches": ["https://jsfiddle.net/*", "https://fiddle.jshell.net/*"],
+          "all_frames": true,
+          "js": ["fiddlebuster.js"]
+        }
+      ]
+}
