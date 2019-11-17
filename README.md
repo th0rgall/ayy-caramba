@@ -3,14 +3,14 @@
 ![Info Screen](https://i.imgur.com/vtsLDFH.png)
 
 
-> Project for the [Junction 2019](https://www.hackjunction.com/) hackathon, Nov. 15-17 
+> Project for the [Junction 2019](https://www.hackjunction.com/) hackathon, Nov. 15-17.  
   Team: @Tarunika, @hooglander, @Carolina, @th0rgall
 
 [AYY](https://ayy.fi/), Aalto University's student union, wants to install info screens in the hallways of their student accomodation. With our Junction 2019 project we hope we gave them a joyful idea of what the possibilities are.
 
 We created a prototype of an interactive info screen that shows useful information such as a message board and laundry bookings, but also included a multiplayer tic-tac-toe game that can be controlled with a Telegram bot!
 
-## Vision
+## 🌅 Vision
 Info screens with event information and ads are commonplace. 
 
 We give the user control via a chat interface they already have and keep it cheap by avoiding a touchscreens.
@@ -18,7 +18,7 @@ We give the user control via a chat interface they already have and keep it chea
 Most importantly we enable human interactions between people who live so close together, yet find the barrier high to connect.
 
 
-## Usage
+## 👷‍♀️ Usage
 
 This project is a hacky situation 🙃 We've got:
 - a `functions` directory in the repo with a simple Firebase Cloud Functions backend that connects to a Telegram bot
